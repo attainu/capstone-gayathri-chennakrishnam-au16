@@ -1,9 +1,6 @@
 ![](https://lh6.googleusercontent.com/dQAQQwYjKR0wRmB1naDZG_LIw9gA9gA2pG8QjmP77a1vx_E_d_u6hkC24X4mL071RSl7TDM1s0jMVuNahdL_nevY7ILD8sHA91_NC_msCGASWTwEL--iGGi9aeiZBtH7DQHDn8MR)
 
-
-**STRIDE - A Stream
-
-ing Search-Engine
+**STRIDE - A Streaming Search-Engine
 
 20.07.2021
 
@@ -15,10 +12,7 @@ Gayathri B M
 
 Divyansh Sharma
 
-**
-
-
-**# Overview
+# ****#** Overview**
 
 The whole concept of this full-stack MERN application is to provide the users a platform to search any movie/T.V series/documentary and find it on the original OTT platform where the users have access to watch it via that particular OTT if they’ve the subscription for that OTT.
 
@@ -35,7 +29,7 @@ The whole concept of this full-stack MERN application is to provide the users a 
 
 # Technologies used:
 
-        JavaScript for performing various array operations and making functions etc.
+    JavaScript for performing various array operations and making functions etc.
 * Node js as a backend language for the project
 * Express js, a node js framework to create a server and make API’s
 * MongoDB to store the user and garden packages data.
@@ -47,7 +41,8 @@ The whole concept of this full-stack MERN application is to provide the users a 
 
 # Tools used :
 
-  ✴Technical:
+✴Technical:
+
 * VS Code
 * Github
 * Open APIs
@@ -56,9 +51,11 @@ The whole concept of this full-stack MERN application is to provide the users a 
 
   * Sketchboard
   * Keynote
-# Future Scope :* Building mobile native applications for the same.
+
+##### Future Scope :* Building mobile native applications for the same.
+
 * Integrating a blog space for members’ interactions.
 * Integrating reviews and rating for the shows/movies within the app.
 
-                                            THANK YOU.
+                                        THANK YOU.
 **
