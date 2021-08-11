@@ -50,7 +50,7 @@ exports.signup = catchAsync(async (req, res, next) => {
 
   const url = `${req.protocol}://${req.get('host')}/me`;
   console.log(url);
-  await new Email(newUser, url).sendWelcome();
+  // await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, res);
 });
@@ -185,7 +185,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   // 3) Send it to user's email
   try {
     const resetURL = `${req.protocol}://${req.get(
-    'host'
+      'host'
     )}/api/v1/users/resetPassword/${resetToken}`;
     await new Email(user, resetURL).sendPasswordReset();
 
@@ -249,4 +249,3 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
   // 4) Log user in, send JWT
   createSendToken(user, 200, res);
 });
-

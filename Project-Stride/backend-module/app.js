@@ -12,9 +12,9 @@ const stripe = require('stripe');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/globalErrorHndler');
-const gardenRouter = require('./routes/gardenRoute');
+// const gardenRouter = require('./routes/gardenRoute');
 const userRouter = require('./routes/userRoute');
-const bookingRouter = require('./routes/bookingRoute');
+// const bookingRouter = require('./routes/bookingRoute');
 const viewRouter = require('./routes/viewRoute');
 
 const app = express();
